@@ -1,23 +1,17 @@
-## Управление таблицами
+### Команды для работы с данными:
 
-### Команды:
-
-- `create_table <имя> <столбец1:тип> ...` - создать таблицу
-- `list_tables` - показать все таблицы  
-- `drop_table <имя>` - удалить таблицу
-- `help` - справка
-- `exit` - выход
+- `insert into <таблица> values (<значение1>, <значение2>, ...)` - добавить запись
+- `select from <таблица>` - показать все записи
+- `select from <таблица> where <условие>` - показать записи по условию
+- `update <таблица> set <столбец>=<значение> where <условие>` - обновить записи
+- `delete from <таблица> where <условие>` - удалить записи
+- `info <таблица>` - информация о таблице
 
 ### Пример использования:
 
-```bash
-project
-
-Введите команду: create_table users name:str age:int is_active:bool
-Таблица "users" успешно создана со столбцами: ID:int, name:str, age:int, is_active:bool
-
-Введите команду: list_tables
-- users
-
-Введите команду: drop_table users
-Таблица "users" успешно удалена.
+create_table users name:str age:int is_active:bool
+insert into users values ("Sergei", 28, true)
+select from users
+update users set age = 29 where name = "Sergei"
+delete from users where age = 28
+info users
