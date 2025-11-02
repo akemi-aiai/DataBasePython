@@ -1,0 +1,24 @@
+
+[tool.poetry]
+name = "project2-antoshina-25-555"
+version = "0.1.0"
+description = "Simple primitive database"
+authors = ["antoshina <111.email@example.com>"]
+readme = "README.md"
+
+packages = [
+    { include = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+project = "src.primitive_db.main:main"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.0"
