@@ -1,8 +1,8 @@
 ## This project is a simple database management system written in Python. It allows you to create tables and add, update, delete, and read records via the command line.
----
+
 It is recommended to use Poetry for dependency management.
 
--**Features**
+**Features**
 
 1. Create and delete tables
 2. Insert, read, update, and delete data
@@ -29,7 +29,7 @@ delete from <table> where <condition> — delete records
 
 info <table> — display table information
 
--**Usage Example**
+**Usage Example**
 create_table users name:str age:int is_active:bool
 insert into users values ("lock", 28, true)
 select from users
