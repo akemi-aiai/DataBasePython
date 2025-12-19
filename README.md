@@ -17,12 +17,12 @@ https://asciinema.org/a/Z5LxhUzXS2bDU7f25Yr30sSjv
 
 **Data Commands**
 
-- insert into <table> values (<value1>, <value2>, ...) — insert a record
-- select from <table> — display all records
-- select from <table> where <condition> — display records by condition
-- update <table> set <column>=<value> where <condition> — update records
-- delete from <table> where <condition> — delete records
-- info <table> — display table information
+- insert into <table> values (<value1>, <value2>, ...) -insert a record
+- select from <table> —display all records
+- select from <table> where <condition> -display records by condition
+- update <table> set <column>=<value> where <condition> —update records
+- delete from <table> where <condition> —delete records
+- info <table> —display table information
 
 **Usage Example**
 1) create_table users name:str age:int is_active:bool
