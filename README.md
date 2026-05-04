@@ -33,7 +33,7 @@
 | `info users` | Display table information |
 
 
-### Пример использования:
+### Examples:
 
 1) create_table users name:str age:int is_active:bool
 2) insert into users values ("lock", 28, true)
