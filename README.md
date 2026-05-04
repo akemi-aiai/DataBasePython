@@ -1,6 +1,15 @@
-## This project is a simple database management system written in Python. It allows you to create tables and add, update, delete, and read records via the command line.
+# Python CLI Database Engine
 
-It is recommended to use Poetry for dependency management.
+![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
+![CLI](https://img.shields.io/badge/CLI-Database%20Management-7C5CFF)
+![CRUD](https://img.shields.io/badge/CRUD-Create%20%7C%20Read%20%7C%20Update%20%7C%20Delete-orange)
+![Data Types](https://img.shields.io/badge/Data%20Types-int%20%7C%20str%20%7C%20bool-purple)
+![Poetry](https://img.shields.io/badge/Poetry-Dependency%20Management-60A5FA?logo=poetry&logoColor=white)
+![Makefile](https://img.shields.io/badge/Makefile-Automation-lightgrey)
+![Storage](https://img.shields.io/badge/Storage-JSON%20Files-green)
+![Status](https://img.shields.io/badge/Status-Portfolio%20Project-lightgrey)
+
+**DataBasePython** is a command-line database management system written in Python.
 
 **Features**
 
